@@ -68,29 +68,33 @@ public class Bicycle {
 	
 	}
 
-	public Bicycle(int numberOfTransm, int weig, int maxW, String nameOfDev, boolean frontBr,
-			boolean trunkAvaib) {
-		
-		this.numberOfTransmission = numberOfTransm;
-		this.weight = weig;
-		this.maxWeight = maxW;
-		this.nameOfDeveloper = nameOfDev;
-		this.frontBrake = frontBr;
-		this.TrunkAvaibility = trunkAvaib;
+	
+	public Bicycle(int numberOfTransmission, int weight, int maxWeight, String nameOfDeveloper, boolean frontBrake,
+			boolean trunkAvaibility) {
+		super();
+		this.numberOfTransmission = numberOfTransmission;
+		this.weight = weight;
+		this.maxWeight = maxWeight;
+		this.nameOfDeveloper = nameOfDeveloper;
+		this.frontBrake = frontBrake;
+		this.trunkAvaibility = trunkAvaibility;
+	}
+	
+	
+
+	public Bicycle(String kindOfMaterial, int sizeOfWheel, int numberOfTransmission, int weight, int maxWeight,
+			String nameOfDeveloper, boolean frontBrake, boolean trunkAvaibility) {
+		super();
+		this.kindOfMaterial = kindOfMaterial;
+		this.sizeOfWheel = sizeOfWheel;
+		this.numberOfTransmission = numberOfTransmission;
+		this.weight = weight;
+		this.maxWeight = maxWeight;
+		this.nameOfDeveloper = nameOfDeveloper;
+		this.frontBrake = frontBrake;
+		this.trunkAvaibility = trunkAvaibility;
 	}
 
-	public Bicycle(String kindOfMater, int sizeOfWeel, int numberOfTransm, int weig, int maxW,
-			String nameOfDev, boolean frontBr, boolean trunkAvaib) {
-		
-		this.kindOfMaterial = kindOfMater;
-		this.sizeOfWheel = sizeOfWeel;
-		this.numberOfTransmission = numberOfTransm;
-		this.weight = weig;
-		this.maxWeight = maxW;
-		this.nameOfDeveloper = nameOfDev;
-		this.frontBrake = frontBr;
-	    this.TrunkAvaibility = trunkAvaib;
-	}
 
 	
 	public String toString() {
